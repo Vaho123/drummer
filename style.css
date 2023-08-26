@@ -1,0 +1,72 @@
+
+#container {
+    width: 700px;
+    height: 800px;
+    position: relative;
+    top: 19px;
+    left:200px;
+
+
+  }
+
+#fullImage {
+    position: relative;
+    top: 145px;
+    left: 265px;
+    height: 475px;
+    width : 650px;
+    z-index: 6;
+}
+
+#rightArm {
+    position: relative;
+    top:-682px;
+    left: 471px;
+    height: 225px;
+    width: 160px;
+    z-index: 5;
+}   
+
+#leftArm {
+    position: relative;
+    top:-670px;
+    left: 354px;
+    height: 220px;
+    width: 160px;
+    z-index: 5;
+}
+
+#head {
+    position: relative;
+    height:180px;
+    width: 187px;
+    top: -58%;
+    left: 72%;
+    z-index: 3;
+}
+
+
+#bodytop {
+    position: relative;
+    top: -433px;
+    left: 13.5%;
+    width: 200px;
+    height:270px;
+    z-index: 3;
+}
+
+
+
+#drumcentre {
+    position: relative;
+    top: -25%;
+    left: 48%;
+    transition: transform .1s; /* Animation */
+    width: 210px;
+    height: 160px;
+    z-index: 6
+
+}
+
+
+
